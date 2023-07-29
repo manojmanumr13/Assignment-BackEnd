@@ -4,8 +4,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.student.demo.model.Student;
 import com.student.demo.model.University;
 import com.student.demo.repository.UniversityRepository;
 
