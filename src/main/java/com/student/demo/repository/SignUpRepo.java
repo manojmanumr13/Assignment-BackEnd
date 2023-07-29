@@ -7,5 +7,4 @@ import com.student.demo.model.SignUp;
 public interface SignUpRepo extends JpaRepository<SignUp, Long>{
 
 	SignUp findByEmail(String email);
-
 }
