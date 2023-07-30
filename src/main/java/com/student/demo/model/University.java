@@ -7,7 +7,6 @@ import java.util.Set;
 
 @Entity
 public class University {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long universityID;

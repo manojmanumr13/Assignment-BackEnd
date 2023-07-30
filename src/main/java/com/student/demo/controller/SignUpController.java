@@ -27,23 +27,14 @@ public class SignUpController {
 	@PostMapping("/signin")
 
 	private String Login(@RequestBody Map<String, String> Loginx) {
-
 	    String email = Loginx.get("email");
-
 	    String password = Loginx.get("password");
-
 	    String result = sServ.Loginx(email, password);
-
 	    return result;
-
 	}
 
     @PostMapping("/signup")
-
     public String Signup(@RequestBody SignUp userx) {
-
         return sServ.SignUpx(userx);
-
     }
-
 }
